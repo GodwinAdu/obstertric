@@ -7,6 +7,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 const randomImage = "https://source.unsplash.com/1600x900/?nature,photography,technology";
+type ImageProps ={
+  src:string | undefined
+}
 
 const page = async () => {
   const profile = await currentUser();
